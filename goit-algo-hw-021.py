@@ -30,6 +30,7 @@ def main():
             process_request()
             time.sleep(random.uniform(0.5, 1.5))
     except KeyboardInterrupt: #Ctrl+C
+    
         print("\nProgram terminated by user.")
 
 if __name__ == "__main__":
