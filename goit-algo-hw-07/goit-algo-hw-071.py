@@ -10,10 +10,11 @@ class TreeNode:
 
 def find_max_value(root):
     if root is None:
+        print("Дерево порожнє.")
         return None
     
     current = root
-    while current.right:
+    while current and current.right:
         current = current.right
 
     return current.value
@@ -25,3 +26,6 @@ if __name__ == "__main__":
     root.right.right = TreeNode(40)
 
     print("Найбільше значення в дереві:", find_max_value(root))
+
+   # empty_tree = None
+   # print("Найбільше значення в порожньому дереві:", find_max_value(empty_tree)) 

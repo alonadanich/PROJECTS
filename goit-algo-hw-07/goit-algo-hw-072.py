@@ -65,6 +65,10 @@ def insert(node, value):
     return node
 
 def find_min_value(node):
+    if node is None:
+        print("Дерево порожнє.")
+        return None
+    
     current = node
     while current.left is not None:
         current = current.left
@@ -77,3 +81,6 @@ if __name__ == "__main__":
         root = insert(root, value)
 
     print("Найменше значення в дереві:", find_min_value(root))
+
+    # empty_tree = None
+    # print("Найменше значення в порожньому дереві:", find_min_value(empty_tree))

@@ -29,3 +29,6 @@ if __name__ == "__main__":
         root = insert(root, value)
 
     print("Сума всіх значень у дереві:", sum_of_tree(root))
+
+    # empty_tree = None
+    #print("Сума всіх значень у порожньому дереві:", sum_of_tree(empty_tree))
