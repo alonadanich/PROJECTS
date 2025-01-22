@@ -82,5 +82,5 @@ if __name__ == "__main__":
 
     print("Найменше значення в дереві:", find_min_value(root))
 
-    # empty_tree = None
-    # print("Найменше значення в порожньому дереві:", find_min_value(empty_tree))
+# empty_tree = None 
+# print("Найменше значення в порожньому дереві:", find_min_value(empty_tree))

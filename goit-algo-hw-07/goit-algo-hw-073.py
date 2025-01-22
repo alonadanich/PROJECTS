@@ -30,5 +30,5 @@ if __name__ == "__main__":
 
     print("Сума всіх значень у дереві:", sum_of_tree(root))
 
-    # empty_tree = None
-    #print("Сума всіх значень у порожньому дереві:", sum_of_tree(empty_tree))
+# empty_tree = None
+# print("Сума всіх значень у порожньому дереві:", sum_of_tree(empty_tree))

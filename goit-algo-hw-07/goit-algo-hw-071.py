@@ -27,5 +27,5 @@ if __name__ == "__main__":
 
     print("Найбільше значення в дереві:", find_max_value(root))
 
-   # empty_tree = None
-   # print("Найбільше значення в порожньому дереві:", find_max_value(empty_tree)) 
+ # empty_tree = None
+ # print("Найбільше значення в порожньому дереві:", find_max_value(empty_tree)) 
